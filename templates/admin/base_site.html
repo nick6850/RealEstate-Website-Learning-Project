@@ -1,0 +1,12 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+
+{% block branding %}
+    <img src="{% static 'img/logo.png' %}" alt="Logo" class='brand_img' heigth='50', width='80' >
+    <h1 id='head'> Nick Real Estate </h1>
+{% endblock %}
+
+
+{% block extrastyle %}
+ <link rel="stylesheet" href="{% static 'css/admin.css' %}">
+{% endblock %}
