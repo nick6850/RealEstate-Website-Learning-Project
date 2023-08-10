@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nick's Real Estate</title>
+    <title>Nick's Real Estate {% block title %}{% endblock %}</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{% static 'css/all.css'%}" />
     <!-- Bootstrap -->
@@ -12,7 +12,6 @@
     <!-- Custom -->
     <link rel="stylesheet" href="{% static 'css/style.css'%}" />
     <link rel="stylesheet" href="{% static 'css/lightbox.min.css'%}" />
-  
   </head>
   <body>
     {% include 'partials/_topbar.html' %}
